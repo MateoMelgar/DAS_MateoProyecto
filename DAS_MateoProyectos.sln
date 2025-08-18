@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad01", "Unidad01", "{0080C672-0360-4A2D-AE52-03808D0D8D17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repaso", "Repaso", "{A71091C2-8277-4511-A0EA-C4F824354051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio01", "Ejercicio01\Ejercicio01.csproj", "{CEFCAB73-EF9F-45B7-AA8D-9F120526BBD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio02", "Ejercicio02\Ejercicio02.csproj", "{51629954-519D-4F20-B21B-CBB43D096BB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{845F9337-26DF-438E-A612-CDAB3E5CB89B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFCAB73-EF9F-45B7-AA8D-9F120526BBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFCAB73-EF9F-45B7-AA8D-9F120526BBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFCAB73-EF9F-45B7-AA8D-9F120526BBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFCAB73-EF9F-45B7-AA8D-9F120526BBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51629954-519D-4F20-B21B-CBB43D096BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51629954-519D-4F20-B21B-CBB43D096BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51629954-519D-4F20-B21B-CBB43D096BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51629954-519D-4F20-B21B-CBB43D096BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A71091C2-8277-4511-A0EA-C4F824354051} = {0080C672-0360-4A2D-AE52-03808D0D8D17}
+		{CEFCAB73-EF9F-45B7-AA8D-9F120526BBD9} = {A71091C2-8277-4511-A0EA-C4F824354051}
+		{51629954-519D-4F20-B21B-CBB43D096BB1} = {A71091C2-8277-4511-A0EA-C4F824354051}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC4CE2C3-BFA3-46B1-B70E-7BE1704CED2F}
+	EndGlobalSection
+EndGlobal

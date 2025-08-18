@@ -1,0 +1,84 @@
+#######################################
+Archivos de compilación
+#######################################
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+*.mdb
+
+#######################################
+Archivos de usuario de Visual Studio
+#######################################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#######################################
+Configuración de Rider o VS Code (si usás)
+#######################################
+.idea/
+*.code-workspace
+
+#######################################
+Archivos temporales
+#######################################
+*.tmp
+*.bak
+*.old
+*.swp
+
+#######################################
+Archivos del sistema operativo
+#######################################
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+#######################################
+Publicaciones y paquetes
+#######################################
+*.publishsettings
+*.nupkg
+*.snupkg
+publish/
+Properties/PublishProfiles/
+
+#######################################
+Archivos de logs y seguimiento
+#######################################
+*.log
+*.tlog
+
+#######################################
+Archivos personales (opcional)
+#######################################
+*.vspscc
+*.vssscc
+
+#######################################
+Otros (opcional)
+#######################################
+TestResults/
+*.dbmdl
+*.psess
+*.vsp
+*.vspx
+.sap
+
+#######################################
+Archivos de paquetes NuGet
+#######################################
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+Archivos generados por dotnet watch
+**/hotreload-.json
