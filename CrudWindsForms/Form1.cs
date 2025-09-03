@@ -108,9 +108,8 @@ namespace CrudWindsForms
                     Actualizar();
         }
 
-
-
-        private void btneliminar_Click(object sender, EventArgs e)
+      
+        private void btneliminar_Click_1(object sender, EventArgs e)
         {
             var id = GetId();
             if (!id.HasValue)
@@ -118,7 +117,7 @@ namespace CrudWindsForms
                 MessageBox.Show("Seleccioná una fila primero.");
                 return;
             }
-            var nombre = dataGridView1.CurrentRow?.Cells["Nombre"]?.Value?.ToString();   
+            var nombre = dataGridView1.CurrentRow?.Cells["Nombre"]?.Value?.ToString();
 
             string texto = string.IsNullOrWhiteSpace(nombre)
                 ? $"¿Eliminar ID {id.Value}?"

@@ -73,7 +73,7 @@
             this.btneliminar.TabIndex = 3;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
-            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click_1);
             // 
             // btnmodificar
             // 
